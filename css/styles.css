@@ -1,52 +1,61 @@
-.topline {
+.loglink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
     position: absolute;
-width: 1440px;
-height: 72px;
-left: 0px;
-top: 0px;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+     
 }
 
-.logo {
+.logo1 {
+ 
+    width: 44px;
+    height: 21px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+    
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-
-position: absolute;
-width: 115px;
-height: 24px;
-left: 156px;
-top: 24px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* IRIS */
+    
+    color: #4D5AE5;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
 }
 
-.ul1 {
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 40px;
+.logo2 {
+    width: 71px;
+height: 21px;
 
-position: absolute;
-width: 261px;
-height: 24px;
-left: 347px;
-top: 24px;
-}
-
-.linav {
-    width: 48px;
-height: 24px;
-
-/* Body Medium */
-
-font-family: 'Roboto';
+font-family: 'Raleway';
 font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
 
-letter-spacing: 0.02em;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
 /* NAVY BLUE */
 
@@ -56,6 +65,6 @@ color: #2E2F42;
 /* Inside auto layout */
 
 flex: none;
-order: 0;
+order: 1;
 flex-grow: 0;
 }
