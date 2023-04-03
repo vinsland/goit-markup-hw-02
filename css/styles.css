@@ -52,6 +52,13 @@ flex-grow: 0;
 
 /* menu */
 
+body {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: #434455
+      }
+
+
 .menu_nav {
     display: flex;
 flex-direction: row;
