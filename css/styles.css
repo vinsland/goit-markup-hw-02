@@ -1,0 +1,61 @@
+.topline {
+    position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+.logo {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 24px;
+}
+
+.ul1 {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 261px;
+height: 24px;
+left: 347px;
+top: 24px;
+}
+
+.linav {
+    width: 48px;
+height: 24px;
+
+/* Body Medium */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
